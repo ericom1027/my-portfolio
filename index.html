@@ -1,0 +1,206 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="This Web Porfolio Development project is powered by EMD IT Solutions" />
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/b91f6f3f96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+  <img id="img2" src="images/photo2.png" alt="">
+  <img id="img4" src="images/bg.png" alt="">
+</div> 
+
+  <div class="container">
+    
+   <nav>
+    <img src="images/logo.jpg" class="logo">
+    <ul id="sidemenu">
+        <li>
+            <a href="#header">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+             <a href="#contact">Contact</a>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </li>
+    </ul>
+    <i class="fas fa-bars" onclick="openmenu()"></i>
+   </nav>
+   <div class="header-text">
+    <p>Software Developer</p>
+     <h1>Hi,<span class="words1"></span><br>from Philippines</h1>
+     <h3><span class="words2"></span></h3>
+   </div>
+ </div>
+<!-- ----------about Me-------- -->
+ <div id="about">
+   <div class="container">
+      <div class="row">
+         <div class="about-col-1">
+            <img id="img3" src="images/photo1.png" alt="">
+         </div>
+         
+         <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p id="p1">I am an enthusiastic, self-motivated, reliable, responsible and hard working person. 
+            I am a mature team worker and adaptable to all challenging situations.
+            I am able to work well both in a team environment as well as using own initiative. 
+            I am able to work well under pressure and adhere to strict deadlines.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('trainings')">Trainings & Certificates</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                
+               
+               
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web/App Developer</li>
+                        <li><span>Desktop Application</span><br>Building Desktop/App</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020 - Current</span><br>Freelance Software Developer.</li>
+                        <li><span>2017 - 2020</span><br>IT/Programmer at National Parks Development Committee.</li>
+                        <li><span>2016 - 2017</span><br>IT Technical Support at Commtech Asia Philippines.</li>
+                        <li><span>2014 - 2016</span><br>IT/Programmer at Neo Spectrum Technical Services.</li>
+                        <li><span>2012 - 2013</span><br>Data Encoder at DAG Xpress Courier.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="trainings">
+                    <ul>
+                    <li><span>November 12, 2023</span><br><a href="https://www.udemy.com/certificate/UC-23878122-1ccc-48da-8fd4-f5b9db5c651c/">Build ASP.NET Core Web API-Scratch to Finish (.NET 7 API)</a><br>Length: 18 total hours
+                      </li>
+                        <li><span>November 23, 2023</span><br><a href="https://www.udemy.com/certificate/UC-65f14a74-36f1-4479-9279-a6372f5c02c4/">JavaScript Fundamentals</a><br>Length: 2.5 total hours</li>
+                        <li><span>November 05, 2023</span><br><a href="https://www.udemy.com/certificate/UC-2c6a0a61-d232-4282-a1af-3405684fee0d/">Javascript Complete Course</a><br>Length: 2 total hours</li>
+                        <li><span>October 14-15, 2023 </span><br>JavaScript Game Development Workshop</li>
+                        <li><span>Sepetember 1, 2023</span><br>AWS Amazon Web Services</li>
+                        <li><span>October 11-14, 2019</span><br>PHP and MYSQL</li>
+                        <li><span>August 15, 2019</span><br>Sophos Endpoint Technical Training</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2011</span><br>Bachelor of Science in Computer Science at Adamson University</li>
+                    </ul>
+                </div>
+         </div>
+         </div>
+    </div>
+    </div>
+     
+  
+<!------------Services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designer is responsible for creating the design and layout of a website or web pages.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>UI UX designers create the user interface for an app, website, 
+                    or other interactive media.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web/app Developer</h2>
+                    <p>Web/App Developer planning and developing software solutions and web applications, 
+                    supporting and maintaining a company's websites and digital products. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------Projects-------------- -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Payroll.jpg">
+                    <div class="layer">
+                        <h3>Payroll System</h3>
+                        <p>Payroll system is any means of paying employees, 
+                        depositing employment taxes and maintaining records of the transactions.</p>
+                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2048.jpg">
+                    <div class="layer">
+                    <h3>2048 Games</h3>
+                    <p>2048 is a single-player sliding block puzzle game.</p>
+                    <a href="https://ericom1027.github.io/emd-js-2048-fcb/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/TS.jpg">
+                    <div class="layer">
+                    <h3>Ticketing System</h3>
+                    <p>Ticketing System is a help desk software program used to process, manage, 
+                    and track customer issues from submission to resolution.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#header" class="btn">See more</a>
+        </div>
+    </div>
+ <!-- -----------Contact---------- -->
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ericsondalay@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>09956291585</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hackweiser_27/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ericson-dalay-2bb1291a1/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ericom1027"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright 2023 EMD IT Solutions. All rights reserved</p>
+    </div>
+ </div>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script type="text/javascript" src="JS/portfolio.js"></script>
+ 
+</body>
+</html>
